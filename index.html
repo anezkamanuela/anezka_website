@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="id" data-theme="system">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anezka Manuela Damanik — Personal Site</title>
+  <meta name="description" content="Portofolio, proyek, sertifikat, dan pengalaman Anezka Manuela Damanik." />
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Anezka Manuela Damanik — Personal Site" />
+  <meta property="og:description" content="Portofolio, proyek, sertifikat, dan pengalaman." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:locale" content="id_ID" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- INTRO / SPLASH -->
+  <div id="intro" class="intro open" aria-modal="true" role="dialog">
+    <div class="intro__card">
+      <button class="intro__brand" id="introBrand" aria-label="Masuk ke situs">AM.</button>
+      <h2>Hallo, welcome! 👋</h2>
+      <p>Click the icon or the button below to enter my personal website.</p>
+      <button id="enterBtn" class="btn">ENTER</button>
+      <small class="muted">Tip: you can also press <b> Enter </b></small>
+    </div>
+  </div>
+
+  <!-- Scroll progress bar -->
+  <div class="scrollbar" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Beranda">AM.</a>
+      <nav class="menu" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#keterampilan">Keterampilan</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#project">Project</a>
+        <a href="#sertifikat">Sertifikat</a>
+        <a href="#cv-portfolio">CV/Portofolio</a>
+        <a href="#kontak" class="btn btn--sm">Let’s Talk</a>
+      </nav>
+      <div class="nav-cta">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle tema">
+          <span class="icon-sun" aria-hidden="true">☀️</span>
+          <span class="icon-moon" aria-hidden="true">🌙</span>
+        </button>
+        <button class="menu-toggle" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero__text reveal">
+        <p class="chip">Sistem Informasi • Universitas Pendidikan Ganesha • Semester 3</p>
+        <h1>Hei, saya <span class="highlight">Anezka</span>, <span id="role" class="marker">Information System Student</span>.</h1>
+        <p class="lead">I enjoy building clean, readable pages with consistent color and typography. I’m currently learning front-end and UI design.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#proyek">Lihat Project</a>
+          <a class="btn btn--ghost" href="https://wa.me/6281264909719" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="tags">
+          <span class="tag">AI-Assisted</span><span class="dot">•</span>
+          <span class="tag">Typography</span><span class="dot">•</span>
+          <span class="tag">Student</span>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal tilt" aria-hidden="true">
+        <div class="hero__blob"></div>
+        <img src="111.jpg" alt="Foto profil Anezka Manuela Damanik" loading="eager" />
+      </div>
+    </section>
+
+    <!-- BAR KATEGORI -->
+    <section class="pillbar">
+      <div class="container pillbar__row marquee">
+        <span>AI-Assisted</span><span>Aksesibilitas</span><span>Front-end</span><span>Student</span><span>Branding</span>
+        <span>AI-Assisted</span><span>Aksesibilitas</span><span>Front-end</span><span>Student</span><span>Branding</span>
+      </div>
+    </section>
+
+    <!-- TENTANG SAYA (DILETAKKAN DI ATAS) -->
+    <section id="tentang" class="container section">
+      <header class="section__header reveal">
+        <h2>Tentang Saya</h2>
+      </header>
+      <div class="about reveal">
+        <p>Saya Anezka Manuela Damanik, mahasiswa Sistem Informasi di Universitas Pendidikan Ganesha. Saya pemula yang sedang belajar pengembangan web dan desain antarmuka. Fokus saya membuat halaman yang bersih, sederhana, mudah dibaca, dan ramah pengguna. Saya sering memakai AI sebagai teman belajar dan ide awal, lalu saya rapikan sendiri. Saat ini saya nyaman dengan HTML dan CSS, sedikit JavaScript, serta Figma untuk mencoba layout dan warna. Untuk tugas kuliah, saya pernah membuat website sederhana terhubung ke database dan terus memperbaikinya langkah demi langkah. Nilai yang saya pegang: komunikasi, kerja tim, manajemen waktu, problem solving, dan terbuka pada feedback. Target dekat saya adalah belajar responsif & aksesibilitas dasar serta merapikan portofolio supaya mudah dipahami orang lain.</p>
+        <p>Tools: HTML, CSS, sedikit JavaScript, Figma untuk eksplor UI, dan Notion untuk dokumentasi.</p>
+      </div>
+    </section>
+
+    <!-- KETERAMPILAN -->
+    <section id="keterampilan" class="container section">
+      <header class="section__header reveal">
+        <h2>Keterampilan</h2>
+        <p>Saya pemula yang sangat tertarik pada web design. Sering memakai AI sebagai asisten untuk ide & prototyping, lalu saya rapikan agar tetap rapi, mudah dibaca, dan ramah pengguna.</p>
+      </header>
+      <div class="grid cards reveal">
+        <article class="card icon-card tilt">
+          <div class="icon">💡</div>
+          <h3>UI/UX & Web Design</h3>
+          <p>Fokus pada layout yang bersih, hirarki jelas, dan aksesibilitas.</p>
+        </article>
+        <article class="card icon-card tilt">
+          <div class="icon">🧰</div>
+          <h3>Ciri Desain</h3>
+          <p>Minimalis, rapi, banyak white space, warna lembut, konsisten grid, mobile-first. AI saya gunakan sebagai co-designer untuk cepat mencoba ide.</p>
+        </article>
+        <article class="card icon-card tilt">
+          <div class="icon">🧭</div>
+          <h3>Soft Skills</h3>
+          <p>Komunikasi, kerja tim, manajemen waktu, problem solving, terbuka feedback.</p>
+        </article>
+      </div>
+
+      <!-- COUNTERS -->
+      <div class="stats grid three reveal">
+        <div class="stat card tilt">
+          <div class="stat__num" data-target="1">0</div>
+          <div class="stat__label">Proyek Kuliah</div>
+        </div>
+        <div class="stat card tilt">
+          <div class="stat__num" data-target="20">0</div>
+          <div class="stat__label">Tutorial</div>
+        </div>
+        <div class="stat card tilt">
+          <div class="stat__num" data-target="3">0</div>
+          <div class="stat__label">Sertifikat</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section id="pengalaman" class="container section">
+      <header class="section__header reveal"><h2>Pengalaman</h2></header>
+      <div class="grid twocol reveal">
+        <article class="card timeline tilt">
+          <div class="timeline__bullet"></div>
+          <h3>Staff Divisi Pelayanan Publik — BEM FTK 2024/2025</h3>
+          <p>Mengelola proses pendataan dan verifikasi SKP mahasiswa/i FTK untuk setiap kegiatan fakultas, mulai dari pengumpulan bukti, pengecekan kelayakan, hingga rekapitulasi akhir.</p>
+        </article>
+        <article class="card timeline tilt">
+          <div class="timeline__bullet"></div>
+          <h3> Volunteer Relawan Mengajar — Creative Edugreen</h3>
+          <p>Mengajar siswa kelas SD dengan fokus pada keterampilan literasi (membaca lancar & pemahaman bacaan) dan numerasi dasar (penjumlahan, pengurangan, pengenalan pecahan). Mengintegrasikan tema lingkungan (sesuai misi Edugreen) melalui proyek kecil seperti jurnal membaca bertema alam, poster daur ulang, dan permainan hitung sampah plastik.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section id="proyek" class="container section">
+      <header class="section__header reveal">
+        <h2>Project</h2>
+        <p>Menampilkan dua project akademik yang menyoroti kompetensi jaringan dan pengembangan aplikasi: desain topologi + validasi heatmap untuk GOR serta implementasi website berbasis dataset. Setiap proyek menampilkan tujuan, proses, dan hasil utama.</p>
+      </header>
+
+      <div class="projects reveal">
+        <article class="project card tilt">
+          <div class="project__header">
+            <h3>Permainan Tradisional Nusantara — Implementasi Website Berbasis Dataset</h3>
+            <a class="btn btn--sm" href="https://anezkamanuela.github.io/permainan-tradisional/" target="_blank" rel="noopener">Kunjungi</a>
+          </div>
+          <p>Proyek ini mengubah dataset permainan_tradisional (berisi provinsi, nama permainan, deskripsi, jenis, dan alat) menjadi website interaktif untuk mengeksplorasi permainan tradisional dari seluruh Indonesia. Data dikelola di basis data SQL dan ditampilkan dalam antarmuka yang mendukung pencarian serta filter per provinsi, lengkap dengan ringkasan jenis, alat, dan usia rekomendasi. Dua lampiran menunjukkan bukti implementasi: tampilan dataset di DBMS dan hasil antarmuka web yang sudah berjalan.</p>
+          <div class="project__shots">
+            <img src="444.jpg" alt="Screenshot proyek dataset 1" class="zoomable" loading="lazy" />
+            <img src="555.jpg" alt="Screenshot proyek dataset 2" class="zoomable" loading="lazy" />
+          </div>
+          <div class="project__meta"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span><span class="chip">MYSQL</span><span class="chip">Excel</span><span class="chip">VS Code</span></div>
+        </article>
+
+        <article class="project card tilt">
+          <div class="project__header">
+            <h3>Optimalisasi Pemasangan Router/AP di GOR — Desain Topologi & Validasi Heatmap</h3>
+          </div>
+          <p>Proyek akhir ini merancang jaringan nirkabel untuk gedung olahraga (GOR) dengan memaksimalkan penempatan router/Access Point agar cakupan merata dan interferensi rendah. Dua bukti implementasi ditunjukkan: (1) pemodelan topologi pada denah GOR di Cisco Packet Tracer untuk menentukan jalur uplink, switch distribusi, dan posisi AP; (2) validasi performa di Ekahau AI Pro yang menghasilkan heatmap kekuatan sinyal, rencana kanal, dan pengaturan daya pancar sehingga area tribun dan lapangan memenuhi ambang layanan sekitar -67 dBm. Hasilnya, sebaran AP mengitari venue dengan konfigurasi kanal/tx-power yang mendukung roaming mulus, kapasitas tinggi saat acara, dan minim blank spot.</p>
+          <div class="project__shots">
+            <img src="666.jpg" alt="Screenshot proyek 2 - 1" class="zoomable" loading="lazy" />
+            <img src="777.jpg" alt="Screenshot proyek 2 - 2" class="zoomable" loading="lazy" />
+          </div>
+          <div class="project__meta"><span class="chip">Cisco Packet Tracer</span><span class="chip">Ekahau</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERTIFIKAT -->
+    <section id="sertifikat" class="container section">
+      <header class="section__header reveal">
+        <h2>Sertifikat</h2>
+        <p>Kumpulan sertifikat berikut menunjukkan rekam jejak pembelajaran berkelanjutan dan kontribusi kemahasiswaan. Meliputi kelulusan kelas pemrograman C, kelulusan ujian tingkat menengah, serta peran kepanitiaan pada orientasi fakultas. Seluruh dokumen diterbitkan oleh lembaga kredibel dan tetap relevan dengan fokus profesional saya di bidang teknologi.</p>
+      </header>
+      <div class="grid three reveal gallery">
+        <figure class="card tilt">
+          <img src="888.jpg" alt="Sertifikat 1" class="zoomable" loading="lazy" />
+          <figcaption>Sertifikat Kelulusan Kelas “Memulai Pemrograman dengan C” • Dicoding Indonesia & 2025</figcaption>
+        </figure>
+        <figure class="card tilt">
+          <img src="999.jpg" alt="Sertifikat 2" class="zoomable" loading="lazy" />
+          <figcaption> Certificate of Examination – “Intermediate One • Modern Gandhi & 2019</figcaption>
+        </figure>
+        <figure class="card tilt">
+          <img src="101010.png" alt="Sertifikat 3" class="zoomable" loading="lazy" />
+          <figcaption>Sertifikat Panitia OKF FTK Undiksha 2025 • BEM FTK & 2025</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CV / PORTOFOLIO -->
+    <section id="cv-portfolio" class="container section">
+      <header class="section__header reveal">
+        <h2>CV & Portofolio</h2>
+        <div class="actions">
+        </div>
+      </header>
+      <div class="grid twocol reveal">
+        <figure class="card tilt">
+          <img src="222.png" alt="Pratinjau CV Anezka" class="zoomable" loading="lazy" />
+          <figcaption>Profil ringkas berisi pendidikan, pengalaman, dan keterampilan paling relevan. Disusun profesional dengan poin capaian kuantitatif dan fokus pada peran yang dituju.</figcaption>
+        </figure>
+        <figure class="card tilt">
+          <img src="333.png" alt="Pratinjau Portofolio" class="zoomable" loading="lazy" />
+          <figcaption>Kumpulan proyek terpilih yang menampilkan kemampuan analisis, desain, dan implementasi end-to-end. Setiap item menyoroti peran, teknologi utama, serta hasil yang terukur.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- NOW / BLOG MINI -->
+    <section id="now" class="container section">
+      <header class="section__header reveal">
+        <h2>Now</h2>
+        <p>Apa yang sedang saya pelajari & kerjakan.</p>
+      </header>
+      <ul class="card reveal nowlist">
+        <li>Belajar dasar layout responsif (agar bagus di HP & laptop).</li>
+        <li>Mencoba desain landing page sederhana di Figma.</li>
+        <li>Merapikan portofolio tugas kuliah supaya rapi dan mudah dibaca.</li>
+      </ul>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="container section">
+      <header class="section__header reveal">
+        <h2>Kontak & Sosial</h2>
+        <p>Let’s build something simple & clean. Kirim ide atau referensi, saya baca semuanya.</p>
+      </header>
+
+      <div class="contact grid twocol reveal">
+        <form class="card contact__form" action="https://formspree.io/f/mayvlrjd" method="POST">
+          <label>Nama
+            <input name="nama" type="text" placeholder="Nama kamu" required />
+          </label>
+          <label>Email
+            <input name="email" type="email" placeholder="email@contoh.com" required />
+          </label>
+          <label>Pesan
+            <textarea name="pesan" rows="4" placeholder="Tulis pesanmu di sini..." required></textarea>
+          </label>
+          <button class="btn" type="submit">Kirim</button>
+          <small class="muted">atau via WhatsApp & instagram di samping.</small>
+        </form>
+
+        <div class="card contact__info">
+          <a class="contact-item" href="https://wa.me/6281264909719" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a class="contact-item" href="https://instagram.com/anezkadmnk" target="_blank" rel="noopener">📷 Instagram</a>
+          <a class="contact-item" href="https://www.linkedin.com/in/anezkamanuela" target="_blank" rel="noopener">💼 LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="brand">AM.</div>
+      <p class="muted">© <span id="year"></span> Anezka Manuela Damanik. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Tutup">×</button>
+    <img alt="" />
+  </div>
+
+  <!-- Floating CTA (mobile) -->
+  <a class="fab" href="https://wa.me/6281264909719" aria-label="Chat WhatsApp" target="_blank" rel="noopener">💬</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
